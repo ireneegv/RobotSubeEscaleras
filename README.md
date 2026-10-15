@@ -15,7 +15,9 @@ En esta práctica hemos creado un robot que cumple con los siguientes requisitos
 
 ----
 ### Materiales:
-
+- <a href="https://eu.robotshop.com/es/products/servo-de-alta-velocidad-con-retroalimentacion-de-360%C2%BA-parallax?gad_source=1&gad_campaignid=20151977646&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6Jef_sOjay0D-MVZ2EdZULnVFxpq6SfI-ABb1wPAqvAF3BfwqhCEpxoCuRAQAvD_BwE&_su_rec=rLdseOBKBaEEp6T-TpOoVvnIQOqD0Sc1rRXsHfTcqa7XqecSJ2XMHrR5i1DIwBJ2qEo1VbKuYzDw4eobAEKpMy6NFoBo08E9SmB-tD8Z9MT3m0b1MeNX0PIox8Yp5_POjJIzJXUr68cGyd2yn89NNwMinb_2bcF7bPQcsO8AvA2aMg9PhvmjAKHx7dAvyG0UU9XhUa_1Z9cmJUhf-N2VPIOKcWtwSaqRy7tBVLXKeLHtn2_4EXHrI9mHb3w&_su_rec_id=751f40d6-1e14-4ada-8d24-98c52aae8cec-1792080001" target="_blank">
+  feedback 360 parallax
+</a>
 
 ## Video Modelo 1
 

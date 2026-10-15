@@ -1,5 +1,5 @@
 {
-  "visuals": [
+  "collisions": [
     {
       "geometry": {
         "exported": {
@@ -33,10 +33,11 @@
         ],
         "unique_name": "Cuerpo"
       },
-      "name": "Cuerpo",
+      "link": "Cuerpo_link",
+      "name": "Cuerpo_collision",
       "origin": {
         "position": [
-          0.12384348269551992,
+          0.11417422443628311,
           -0.14017421007156372,
           -0.049449026584625244
         ],
@@ -47,7 +48,7 @@
           0.0
         ]
       },
-      "original_name": "Cuerpo"
+      "primitives": []
     },
     {
       "geometry": {
@@ -82,21 +83,22 @@
         ],
         "unique_name": "Transversal"
       },
-      "name": "Transversal",
+      "link": "Transversal_link",
+      "name": "Transversal_collision",
       "origin": {
         "position": [
-          0.11453384160995483,
-          -0.1946353018283844,
-          -0.024273917078971863
+          0.1042031329125166,
+          -0.19463531682752233,
+          -0.024273922683901716
         ],
         "relative_to": "Transversal_link",
         "rotation": [
-          0.0,
-          0.0,
-          0.0
+          7.275876325468762e-12,
+          4.6566039912931956e-10,
+          1.8616480946883096e-09
         ]
       },
-      "original_name": "Transversal"
+      "primitives": []
     },
     {
       "geometry": {
@@ -131,21 +133,22 @@
         ],
         "unique_name": "Pata_Alta_D"
       },
-      "name": "Pata_Alta_D",
+      "link": "Pata_Alta_D_link",
+      "name": "Pata_Alta_D_collision",
       "origin": {
         "position": [
-          0.22253750264644623,
-          -0.1925894021987915,
-          -0.007478687446564436
+          0.2225374888616636,
+          -0.19258938940758907,
+          -0.007478689774871041
         ],
         "relative_to": "Pata_Alta_D_link",
         "rotation": [
+          -1.0408340332410611e-17,
           0.0,
-          0.0,
-          0.0
+          -2.220446049355509e-16
         ]
       },
-      "original_name": "Pata_Alta_D"
+      "primitives": []
     },
     {
       "geometry": {
@@ -180,21 +183,22 @@
         ],
         "unique_name": "Nexo_Pata_D"
       },
-      "name": "Nexo_Pata_D",
+      "link": "Nexo_Pata_D_link",
+      "name": "Nexo_Pata_D_collision",
       "origin": {
         "position": [
-          0.22657835483551025,
-          -0.014979619532823563,
-          -0.011547591537237167
+          0.22657841453719985,
+          -0.014979618886841913,
+          -0.011547597125173007
         ],
         "relative_to": "Nexo_Pata_D_link",
         "rotation": [
+          -6.9388933739946485e-18,
           0.0,
-          0.0,
-          0.0
+          -2.4416808871705158e-27
         ]
       },
-      "original_name": "Nexo_Pata_D"
+      "primitives": []
     },
     {
       "geometry": {
@@ -229,21 +233,22 @@
         ],
         "unique_name": "Pata_Baja_D"
       },
-      "name": "Pata_Baja_D",
+      "link": "Pata_Baja_D_link",
+      "name": "Pata_Baja_D_collision",
       "origin": {
         "position": [
-          0.2361147254705429,
-          -0.04437227174639702,
-          -0.009313433431088924
+          0.23611483004295208,
+          -0.04437226653440659,
+          -0.009313436225057117
         ],
         "relative_to": "Pata_Baja_D_link",
         "rotation": [
+          -6.938893903907228e-18,
           0.0,
-          0.0,
-          0.0
+          2.4050812848793585e-27
         ]
       },
-      "original_name": "Pata_Baja_D"
+      "primitives": []
     },
     {
       "geometry": {
@@ -278,21 +283,22 @@
         ],
         "unique_name": "Pata_Alta_I"
       },
-      "name": "Pata_Alta_I",
+      "link": "Pata_Alta_I_link",
+      "name": "Pata_Alta_I_collision",
       "origin": {
         "position": [
-          0.02730079647153616,
-          -0.1905999332666397,
-          -0.018740350380539894
+          0.0273008059688456,
+          -0.19059988872900732,
+          -0.01874035969376632
         ],
         "relative_to": "Pata_Alta_I_link",
         "rotation": [
+          -1.0408340332410611e-17,
           0.0,
-          0.0,
-          0.0
+          -2.220446049355509e-16
         ]
       },
-      "original_name": "Pata_Alta_I"
+      "primitives": []
     },
     {
       "geometry": {
@@ -327,21 +333,22 @@
         ],
         "unique_name": "Nexo_Pata_I"
       },
-      "name": "Nexo_Pata_I",
+      "link": "Nexo_Pata_I_link",
+      "name": "Nexo_Pata_I_collision",
       "origin": {
         "position": [
-          0.023786458186805248,
-          -0.01448624674230814,
-          -0.011775595135986805
+          0.023786467594446074,
+          -0.014486245944012432,
+          -0.011775599792600072
         ],
         "relative_to": "Nexo_Pata_I_link",
         "rotation": [
+          -6.9388933739946485e-18,
           0.0,
-          0.0,
-          0.0
+          -2.4416808871705158e-27
         ]
       },
-      "original_name": "Nexo_Pata_I"
+      "primitives": []
     },
     {
       "geometry": {
@@ -376,21 +383,22 @@
         ],
         "unique_name": "Pata_Baja_I"
       },
-      "name": "Pata_Baja_I",
+      "link": "Pata_Baja_I_link",
+      "name": "Pata_Baja_I_collision",
       "origin": {
         "position": [
-          0.012898604851216078,
-          -0.05082825943827629,
-          -0.00992370955646038
+          0.012898611206851773,
+          -0.050828252017598954,
+          -0.009923715144396165
         ],
         "relative_to": "Pata_Baja_I_link",
         "rotation": [
+          -6.938893903907228e-18,
           0.0,
-          0.0,
-          0.0
+          2.4050812848793585e-27
         ]
       },
-      "original_name": "Pata_Baja_I"
+      "primitives": []
     }
   ]
 }

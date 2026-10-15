@@ -1,0 +1,13 @@
+{
+  "additional_files": {},
+  "description": "",
+  "files": [
+    "../urdf/Modelo1.urdf",
+    "Modelo1_collisions.yml",
+    "Modelo1_joints.yml",
+    "Modelo1_links.yml",
+    "Modelo1_visuals.yml"
+  ],
+  "modelname": "Modelo1",
+  "version": "0.0.0"
+}

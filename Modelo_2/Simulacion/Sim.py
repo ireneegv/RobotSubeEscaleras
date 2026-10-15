@@ -11,7 +11,7 @@ p.setTimeStep(1.0 / 240.0)
 
 p.loadURDF("plane.urdf")
 
-robot_path = os.path.abspath("Modelo1/urdf/unnamed.urdf")
+robot_path = os.path.abspath("Modelo1/urdf/Modelo1.urdf")
 
 robotId = p.loadURDF(
     robot_path,

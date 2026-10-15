@@ -20,17 +20,21 @@ En esta práctica hemos creado un robot que cumple con los siguientes requisitos
   servo Parallax Feedback 360 (x3)
 </a>
 
-Corriente de los motores = 0.15 A
-Corriente de arranque = 1,2 A
+Corriente de los motores (Im) = 0,15 A
+
+Corriente de arranque (Ia) = 1,2 A
 
 - <a href="https://www.electrohobby.es/esp32/448-esp32-devkit.html" target="_blank">
   ESP32
 </a>
 
+Corriente de la tarjeta (Ib) = 0,5 A
+
 
 - <a href="https://electronicaymas.com/movimiento/modulo-ultrasonido-para-arduino-700?gad_source=1&gad_campaignid=17297688630&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6M3Y-1ZefiVBVX1ADatzS5J_iHjAX1mjm9LTxAz0ObsYp-F9YTpF7RoCrl0QAvD_BwE" target="_blank">
   Ultrasonido
 </a>
+corriente de dispositivo (Id) = 0,015 A
 
 - <a href="https://electronicaymas.com/movimiento/modulo-ultrasonido-para-arduino-700?gad_source=1&gad_campaignid=17297688630&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6M3Y-1ZefiVBVX1ADatzS5J_iHjAX1mjm9LTxAz0ObsYp-F9YTpF7RoCrl0QAvD_BwE" target="_blank">
   Batería
@@ -39,10 +43,10 @@ Corriente de arranque = 1,2 A
 Para elegir la batería hemos usado este cálculo para sacar la tasa de descarga, teniendo en cuenta los componentes que hemos nombrado anteriormente.
 
 ```
-Id = 
-It =
+Idis = Ia*3 + Ib + Id
+It = Im*3 + Ib + Id 
 
-C = Id/It
+C = Idis/It = 3,815/0,665 = 5,736842105
 ```
 
 ## Video Modelo 1

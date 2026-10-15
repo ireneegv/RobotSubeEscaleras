@@ -17,3 +17,7 @@ En esta práctica hemos creado un robot que cumple con los siguientes requisitos
 ### Materiales:
 
 
+## Video Modelo 1
+
+https://github.com/user-attachments/assets/8579e925-4092-4993-b2e3-47c2c2166304
+

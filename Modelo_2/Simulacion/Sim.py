@@ -59,8 +59,8 @@ slider_transversal = p.addUserDebugParameter(
 # Slider compartido para los dos nexos
 slider_nexos = p.addUserDebugParameter(
     "Nexos (ambos)",
-    -3.14,
-    3.14,
+    -6.28,
+    6.28,
     0.0
 )
 

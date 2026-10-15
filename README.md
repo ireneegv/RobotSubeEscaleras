@@ -38,6 +38,11 @@ corriente de dispositivo (Id) = 0,015 A
 
 - <a href="https://electronicaymas.com/movimiento/modulo-ultrasonido-para-arduino-700?gad_source=1&gad_campaignid=17297688630&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6M3Y-1ZefiVBVX1ADatzS5J_iHjAX1mjm9LTxAz0ObsYp-F9YTpF7RoCrl0QAvD_BwE" target="_blank">
   Batería
+  
+  https://us.ovonicshop.com/products/ovonic-3-7v-750mah-1s-30c-molex-plug-battery-for-micro-quad-4pcs?srsltid=AU7gw4V7Ob8AbrpEC3XxBIzCTO3BOCnLFI9VIx6F5DFA9s-3Zd4axzzW
+
+  https://maxamps.com/collections/lipo-2000mah-packs?srsltid=AU7gw4UdZq0vDYEVtH78te5bcK8SUUs5vgwlONR2gmbEaIQ1pKBMiBVr
+  
 </a>
 
 Para elegir la batería hemos usado este cálculo para sacar la tasa de descarga, teniendo en cuenta los componentes que hemos nombrado anteriormente.

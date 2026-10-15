@@ -35,7 +35,12 @@ En esta práctica hemos creado un robot que cumple con los siguientes requisitos
 
 Para elegir la batería hemos usado este cálculo para sacar la tasa de descarga, teniendo en cuenta los componentes que hemos nombrado anteriormente.
 
-C=Id/It
+```
+Id = 
+It =
+
+C = Id/It
+```
 
 ## Video Modelo 1
 

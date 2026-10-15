@@ -20,6 +20,9 @@ En esta práctica hemos creado un robot que cumple con los siguientes requisitos
   servo Parallax Feedback 360 (x3)
 </a>
 
+Corriente de los motores = 0.15 A
+Corriente de arranque = 1,2 A
+
 - <a href="https://www.electrohobby.es/esp32/448-esp32-devkit.html" target="_blank">
   ESP32
 </a>

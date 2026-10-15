@@ -1,0 +1,396 @@
+{
+  "visuals": [
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Cuerpo.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Cuerpo"
+      },
+      "name": "Cuerpo",
+      "origin": {
+        "position": [
+          0.12384348269551992,
+          -0.14017421007156372,
+          -0.049449026584625244
+        ],
+        "relative_to": "Cuerpo_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Cuerpo"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Transversal.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Transversal"
+      },
+      "name": "Transversal",
+      "origin": {
+        "position": [
+          0.11453384160995483,
+          -0.1946353018283844,
+          -0.024273917078971863
+        ],
+        "relative_to": "Transversal_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Transversal"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Pata_Alta_D.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Pata_Alta_D"
+      },
+      "name": "Pata_Alta_D",
+      "origin": {
+        "position": [
+          0.22253750264644623,
+          -0.1925894021987915,
+          -0.007478687446564436
+        ],
+        "relative_to": "Pata_Alta_D_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Pata_Alta_D"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Nexo_Pata_D.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Nexo_Pata_D"
+      },
+      "name": "Nexo_Pata_D",
+      "origin": {
+        "position": [
+          0.22657835483551025,
+          -0.014979619532823563,
+          -0.011547591537237167
+        ],
+        "relative_to": "Nexo_Pata_D_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Nexo_Pata_D"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Pata_Baja_D.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Pata_Baja_D"
+      },
+      "name": "Pata_Baja_D",
+      "origin": {
+        "position": [
+          0.2361147254705429,
+          -0.04437227174639702,
+          -0.009313433431088924
+        ],
+        "relative_to": "Pata_Baja_D_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Pata_Baja_D"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Pata_Alta_I.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Pata_Alta_I"
+      },
+      "name": "Pata_Alta_I",
+      "origin": {
+        "position": [
+          0.02730079647153616,
+          -0.1905999332666397,
+          -0.018740350380539894
+        ],
+        "relative_to": "Pata_Alta_I_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Pata_Alta_I"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Nexo_Pata_I.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Nexo_Pata_I"
+      },
+      "name": "Nexo_Pata_I",
+      "origin": {
+        "position": [
+          0.023786458186805248,
+          -0.01448624674230814,
+          -0.011775595135986805
+        ],
+        "relative_to": "Nexo_Pata_I_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Nexo_Pata_I"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "stl": {
+            "export_operation": "blender_export",
+            "filepath": "../meshes/stl/Pata_Baja_I.stl",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    0.0010000000474974513,
+                    0.0010000000474974513,
+                    0.0010000000474974513
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        "unique_name": "Pata_Baja_I"
+      },
+      "name": "Pata_Baja_I",
+      "origin": {
+        "position": [
+          0.012898604851216078,
+          -0.05082825943827629,
+          -0.00992370955646038
+        ],
+        "relative_to": "Pata_Baja_I_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "Pata_Baja_I"
+    }
+  ]
+}

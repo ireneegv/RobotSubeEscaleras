@@ -1,0 +1,203 @@
+<robot name="unnamed" version="1.0">
+  <joint name="Cuerpo_link_joint" type="fixed">
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.00165 0.05875 0.04640"/>
+    <parent link="new_link"/>
+    <child link="Cuerpo_link"/>
+  </joint>
+  <joint name="Transversal_link_joint" type="revolute">
+    <limit lower="-3.14000" upper="3.14000" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00036 0.05446 -0.02518"/>
+    <parent link="Cuerpo_link"/>
+    <child link="Transversal_link"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="Pata_Alta_D_link_joint" type="fixed">
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.10800 -0.00205 -0.01680"/>
+    <parent link="Transversal_link"/>
+    <child link="Pata_Alta_D_link"/>
+  </joint>
+  <joint name="Nexo_Pata_D_link_joint" type="revolute">
+    <limit lower="-3.14000" upper="3.14000" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00404 -0.17761 0.00407"/>
+    <parent link="Pata_Alta_D_link"/>
+    <child link="Nexo_Pata_D_link"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="Pata_Baja_D_link_joint" type="fixed">
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00954 0.02939 -0.00223"/>
+    <parent link="Nexo_Pata_D_link"/>
+    <child link="Pata_Baja_D_link"/>
+  </joint>
+  <joint name="Pata_Alta_I_link_joint" type="fixed">
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.09690 -0.00404 -0.00553"/>
+    <parent link="Transversal_link"/>
+    <child link="Pata_Alta_I_link"/>
+  </joint>
+  <joint name="Nexo_Pata_I_link_joint" type="revolute">
+    <limit lower="-3.14000" upper="3.14000" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.00351 -0.17611 -0.00696"/>
+    <parent link="Pata_Alta_I_link"/>
+    <child link="Nexo_Pata_I_link"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="Pata_Baja_I_link_joint" type="fixed">
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.01089 0.03634 -0.00185"/>
+    <parent link="Nexo_Pata_I_link"/>
+    <child link="Pata_Baja_I_link"/>
+  </joint>
+  <link name="new_link"/>
+  <link name="Cuerpo_link">
+    <collision name="Cuerpo_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.11417 -0.14017 -0.04945"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Cuerpo.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00120" ixy="-0.00000" ixz="0.00000" iyy="0.00155" iyz="0.00025" izz="0.00233"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00616 0.01427 -0.02421"/>
+      <mass value="0.50000"/>
+    </inertial>
+    <visual name="Cuerpo">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.12384 -0.14017 -0.04945"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Cuerpo.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Transversal_link">
+    <collision name="Transversal_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.10420 -0.19464 -0.02427"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Transversal.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00000" ixy="-0.00000" ixz="-0.00000" iyy="0.00040" iyz="0.00000" izz="0.00040"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00547 -0.00464 -0.01427"/>
+      <mass value="0.10000"/>
+    </inertial>
+    <visual name="Transversal">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.11453 -0.19464 -0.02427"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Transversal.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Pata_Alta_D_link">
+    <collision name="Pata_Alta_D_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.22254 -0.19259 -0.00748"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Alta_D.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00073" ixy="0.00000" ixz="-0.00000" iyy="0.00001" iyz="-0.00000" izz="0.00073"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00746 -0.08749 0.00252"/>
+      <mass value="0.20000"/>
+    </inertial>
+    <visual name="Pata_Alta_D">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.22254 -0.19259 -0.00748"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Alta_D.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Nexo_Pata_D_link">
+    <collision name="Nexo_Pata_D_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.22658 -0.01498 -0.01155"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Nexo_Pata_D.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00000" ixy="-0.00000" ixz="-0.00000" iyy="0.00000" iyz="-0.00000" izz="0.00000"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00842 0.00002 -0.00155"/>
+      <mass value="0.02000"/>
+    </inertial>
+    <visual name="Nexo_Pata_D">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.22658 -0.01498 -0.01155"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Nexo_Pata_D.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Pata_Baja_D_link">
+    <collision name="Pata_Baja_D_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.23611 -0.04437 -0.00931"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Baja_D.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00019" ixy="0.00001" ixz="-0.00000" iyy="0.00001" iyz="0.00000" izz="0.00018"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00867 0.00599 0.00069"/>
+      <mass value="0.10000"/>
+    </inertial>
+    <visual name="Pata_Baja_D">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.23611 -0.04437 -0.00931"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Baja_D.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Pata_Alta_I_link">
+    <inertial>
+      <inertia ixx="0.00073" ixy="0.00000" ixz="-0.00000" iyy="0.00001" iyz="-0.00000" izz="0.00073"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00270 -0.08550 -0.00874"/>
+      <mass value="0.20000"/>
+    </inertial>
+    <visual name="Pata_Alta_I">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.02730 -0.19060 -0.01874"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Alta_I.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Nexo_Pata_I_link">
+    <collision name="Nexo_Pata_I_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.02379 -0.01449 -0.01178"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Nexo_Pata_I.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00000" ixy="0.00000" ixz="-0.00000" iyy="0.00000" iyz="0.00000" izz="0.00000"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00121 0.00051 -0.00178"/>
+      <mass value="0.02000"/>
+    </inertial>
+    <visual name="Nexo_Pata_I">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.02379 -0.01449 -0.01178"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Nexo_Pata_I.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Pata_Baja_I_link">
+    <collision name="Pata_Baja_I_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.01290 -0.05083 -0.00992"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Baja_I.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00019" ixy="-0.00001" ixz="0.00000" iyy="0.00001" iyz="0.00000" izz="0.00018"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00231 -0.00047 0.00008"/>
+      <mass value="0.10000"/>
+    </inertial>
+    <visual name="Pata_Baja_I">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.01290 -0.05083 -0.00992"/>
+      <geometry>
+        <mesh filename="../meshes/stl/Pata_Baja_I.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

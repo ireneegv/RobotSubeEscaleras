@@ -1,0 +1,180 @@
+{
+  "joints": [
+    {
+      "child": "Cuerpo_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "fixed",
+      "name": "Cuerpo_link_joint",
+      "origin": {
+        "position": [
+          0.0016506612300872803,
+          0.058747999370098114,
+          0.046403240179643035
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "new_link"
+    },
+    {
+      "child": "Transversal_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "Transversal_link_joint",
+      "origin": {
+        "position": [
+          -0.0003596171736717224,
+          0.05446109175682068,
+          -0.025175103917717934
+        ],
+        "relative_to": "Cuerpo_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Cuerpo_link"
+    },
+    {
+      "child": "Pata_Alta_D_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "fixed",
+      "name": "Pata_Alta_D_link_joint",
+      "origin": {
+        "position": [
+          -0.10800362378358841,
+          -0.0020458996295928955,
+          -0.016795228235423565
+        ],
+        "relative_to": "Transversal_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Transversal_link"
+    },
+    {
+      "child": "Nexo_Pata_D_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "Nexo_Pata_D_link_joint",
+      "origin": {
+        "position": [
+          -0.004040881991386414,
+          -0.1776097696274519,
+          0.004068903625011444
+        ],
+        "relative_to": "Pata_Alta_D_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Pata_Alta_D_link"
+    },
+    {
+      "child": "Pata_Baja_D_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "fixed",
+      "name": "Pata_Baja_D_link_joint",
+      "origin": {
+        "position": [
+          -0.009536370635032654,
+          0.029392650350928307,
+          -0.002234158106148243
+        ],
+        "relative_to": "Nexo_Pata_D_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Nexo_Pata_D_link"
+    },
+    {
+      "child": "Pata_Alta_I_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "fixed",
+      "name": "Pata_Alta_I_link_joint",
+      "origin": {
+        "position": [
+          0.09690229780972004,
+          -0.004035383462905884,
+          -0.005533566698431969
+        ],
+        "relative_to": "Transversal_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Transversal_link"
+    },
+    {
+      "child": "Nexo_Pata_I_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "Nexo_Pata_I_link_joint",
+      "origin": {
+        "position": [
+          0.003514339216053486,
+          -0.1761136595159769,
+          -0.0069647543132305145
+        ],
+        "relative_to": "Pata_Alta_I_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Pata_Alta_I_link"
+    },
+    {
+      "child": "Pata_Baja_I_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "fixed",
+      "name": "Pata_Baja_I_link_joint",
+      "origin": {
+        "position": [
+          0.010887851472944021,
+          0.036342011764645576,
+          -0.0018518855795264244
+        ],
+        "relative_to": "Nexo_Pata_I_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "Nexo_Pata_I_link"
+    }
+  ]
+}

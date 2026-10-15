@@ -1,0 +1,174 @@
+{
+  "links": [
+    {
+      "name": "new_link",
+      "originRoot": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 0.10000002384185791,
+      "visuals": []
+    },
+    {
+      "name": "Cuerpo_link",
+      "originRoot": {
+        "position": [
+          0.0016506612300872803,
+          0.058747999370098114,
+          0.046403240179643035
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Cuerpo"
+      ]
+    },
+    {
+      "name": "Transversal_link",
+      "originRoot": {
+        "position": [
+          0.0012910440564155579,
+          0.11320909112691879,
+          0.0212281362619251
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Transversal"
+      ]
+    },
+    {
+      "name": "Pata_Alta_D_link",
+      "originRoot": {
+        "position": [
+          -0.10671257972717285,
+          0.1111631914973259,
+          0.004432908026501536
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Pata_Alta_D"
+      ]
+    },
+    {
+      "name": "Nexo_Pata_D_link",
+      "originRoot": {
+        "position": [
+          -0.11075346171855927,
+          -0.066446578130126,
+          0.00850181165151298
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Nexo_Pata_D"
+      ]
+    },
+    {
+      "name": "Pata_Baja_D_link",
+      "originRoot": {
+        "position": [
+          -0.12028983235359192,
+          -0.03705392777919769,
+          0.0062676535453647375
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Pata_Baja_D"
+      ]
+    },
+    {
+      "name": "Pata_Alta_I_link",
+      "originRoot": {
+        "position": [
+          0.0981933418661356,
+          0.10917370766401291,
+          0.015694569563493133
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Pata_Alta_I"
+      ]
+    },
+    {
+      "name": "Nexo_Pata_I_link",
+      "originRoot": {
+        "position": [
+          0.10170768108218908,
+          -0.066939951851964,
+          0.008729815250262618
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Nexo_Pata_I"
+      ]
+    },
+    {
+      "name": "Pata_Baja_I_link",
+      "originRoot": {
+        "position": [
+          0.1125955325551331,
+          -0.03059794008731842,
+          0.006877929670736194
+        ],
+        "relative_to": "new_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visuals": [
+        "Pata_Baja_I"
+      ]
+    }
+  ]
+}

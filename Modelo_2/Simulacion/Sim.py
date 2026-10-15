@@ -1,4 +1,5 @@
 import pybullet as p
+import math
 import pybullet_data
 import time
 import os
@@ -11,13 +12,21 @@ p.setTimeStep(1.0 / 240.0)
 
 p.loadURDF("plane.urdf")
 
+escalera_path = os.path.abspath("Modelo1/urdf/Escalera.urdf")
 robot_path = os.path.abspath("Modelo1/urdf/Modelo1.urdf")
 
 robotId = p.loadURDF(
     robot_path,
-    basePosition=[0, 0, 1.0],
+    basePosition=[0, 0, 0.2],
     useFixedBase=False,
     flags=p.URDF_USE_SELF_COLLISION
+)
+
+escaleraId = p.loadURDF(
+    escalera_path,
+    basePosition=[0, -0.1, 0],
+    baseOrientation=p.getQuaternionFromEuler([0, 0, -math.pi/2]),
+    useFixedBase=True
 )
 
 # Buscar las articulaciones
@@ -42,8 +51,8 @@ for i in range(p.getNumJoints(robotId)):
 # Slider de la transversal
 slider_transversal = p.addUserDebugParameter(
     "Transversal",
-    -3.14,
-    3.14,
+    -6.28,
+    6.28,
     0.0
 )
 
@@ -55,12 +64,15 @@ slider_nexos = p.addUserDebugParameter(
     0.0
 )
 
-p.resetDebugVisualizerCamera(
-    cameraDistance=2.5,
-    cameraYaw=45,
-    cameraPitch=-25,
-    cameraTargetPosition=[0, 0, 0.5]
-)
+for i in range(-1, p.getNumJoints(escaleraId)):
+    p.changeDynamics(
+        escaleraId,
+        i,
+        lateralFriction=1.5,
+        spinningFriction=0.1,
+        rollingFriction=0.1
+    )
+
 
 print("\nMueve los sliders para controlar el robot.")
 print("Nexos encontrados:", nexos)

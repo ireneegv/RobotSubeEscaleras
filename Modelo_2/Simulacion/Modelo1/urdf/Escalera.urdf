@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<robot name="escalera">
+  <!-- Dimensiones en metros: contrahuella 0.17, huella 0.30, ancho 0.40.
+       Escalera de 8 peldaños; X = avance, Y = ancho, Z = altura. -->
+  <link name="base">
+    <visual>
+      <origin xyz="0 0 -0.005"/>
+      <geometry><box size="0.001 0.40 0.01"/></geometry>
+      <material name="suelo"><color rgba="0.35 0.35 0.35 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.005"/>
+      <geometry><box size="0.001 0.40 0.01"/></geometry>
+    </collision>
+  </link>
+
+  <link name="peldaño_1">
+    <visual>
+      <geometry><box size="0.30 0.40 0.170"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 0.170"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_1" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_1"/>
+    <origin xyz="0.150 0 0.085" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_2">
+    <visual>
+      <geometry><box size="0.30 0.40 0.340"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 0.340"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_2" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_2"/>
+    <origin xyz="0.450 0 0.170" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_3">
+    <visual>
+      <geometry><box size="0.30 0.40 0.510"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 0.510"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_3" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_3"/>
+    <origin xyz="0.750 0 0.255" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_4">
+    <visual>
+      <geometry><box size="0.30 0.40 0.680"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 0.680"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_4" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_4"/>
+    <origin xyz="1.050 0 0.340" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_5">
+    <visual>
+      <geometry><box size="0.30 0.40 0.850"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 0.850"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_5" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_5"/>
+    <origin xyz="1.350 0 0.425" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_6">
+    <visual>
+      <geometry><box size="0.30 0.40 1.020"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 1.020"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_6" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_6"/>
+    <origin xyz="1.650 0 0.510" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_7">
+    <visual>
+      <geometry><box size="0.30 0.40 1.190"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 1.190"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_7" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_7"/>
+    <origin xyz="1.950 0 0.595" rpy="0 0 0"/>
+  </joint>
+
+  <link name="peldaño_8">
+    <visual>
+      <geometry><box size="0.30 0.40 1.360"/></geometry>
+      <material name="material_peldaño"><color rgba="0.65 0.65 0.68 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.30 0.40 1.360"/></geometry>
+    </collision>
+  </link>
+  <joint name="union_peldaño_8" type="fixed">
+    <parent link="base"/>
+    <child link="peldaño_8"/>
+    <origin xyz="2.250 0 0.680" rpy="0 0 0"/>
+  </joint>
+</robot>

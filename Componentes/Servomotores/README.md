@@ -142,6 +142,6 @@ Los servos FEETECH FS0403-FB y FS90-FB son más pequeños y ligeros que los Para
 
 Para levantar las piernas (≈ 1,7 N·m de arranque, objetivo 2,5 - 3 N·m) la opción recomendada es el **FEETECH STS3215 de 12 V**. Si el par continuo no basta, el siguiente escalón es el **STS3250**.
 
-Para **mover las ruedas y medir cuánto avanza el robot**, el STS3215 en modo rueda sirve: el ESP32 lee la posición del encoder, cuenta las vueltas y calcula la distancia. Si se prefiere algo más barato o ligero, se puede usar un motorreductor con encoder (N20 si es ligero, JGB37 o Pololu 37D si necesita más par).
+Para mover las ruedas y medir cuánto avanza el robot, el STS3215 en modo rueda sirve: el ESP32 lee la posición del encoder, cuenta las vueltas y calcula la distancia. Si se prefiere algo más barato o ligero, se puede usar un motorreductor con encoder (N20 si es ligero, JGB37 o Pololu 37D si necesita más par).
 
-La elección definitiva dependerá del espacio disponible, el tiempo que deba aguantar la pierna levantada y la batería disponible.
+La elección final dependerá del espacio disponible, el tiempo que deba aguantar la pierna levantada y la batería disponible.

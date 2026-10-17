@@ -1,7 +1,5 @@
 # ¿Por qué un ESP32 y no un Arduino UNO?
 
-> **Nota:** los valores son aproximados y corresponden a las placas de desarrollo más habituales (ESP32 DevKit con ESP32-WROOM-32 y Arduino UNO R3). Los precios son orientativos. Hay que comprobar la hoja de características de la placa concreta que se compre.
-
 ## 1. Resumen
 
 El robot necesita controlar varios servos Parallax Feedback 360° y leer la señal de realimentación de cada uno para medir lo que avanza. Eso exige varios pines con interrupciones, buena velocidad de cálculo y, preferiblemente, comunicación inalámbrica. El ESP32 cumple todo eso con una sola placa pequeña y barata. El Arduino UNO se queda corto en varios puntos.

@@ -32,14 +32,14 @@ Corriente de la tarjeta (Ib) = 0,5 A
 
 
 - <a href="https://electronicaymas.com/movimiento/modulo-ultrasonido-para-arduino-700?gad_source=1&gad_campaignid=17297688630&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6M3Y-1ZefiVBVX1ADatzS5J_iHjAX1mjm9LTxAz0ObsYp-F9YTpF7RoCrl0QAvD_BwE" target="_blank">
-  Ultrasonido
+Ultrasonido
 </a>
 corriente de dispositivo (Id) = 0,015 A
 
 - <a href="https://electronicaymas.com/movimiento/modulo-ultrasonido-para-arduino-700?gad_source=1&gad_campaignid=17297688630&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6M3Y-1ZefiVBVX1ADatzS5J_iHjAX1mjm9LTxAz0ObsYp-F9YTpF7RoCrl0QAvD_BwE" target="_blank">
   </a>
   
-  Batería -> Especificada en la Carpeta "Bateria"
+Batería -> Especificada en la Carpeta "Bateria"
   
  
 Para elegir la batería hemos usado este cálculo para sacar la tasa de descarga, teniendo en cuenta los componentes que hemos nombrado anteriormente.

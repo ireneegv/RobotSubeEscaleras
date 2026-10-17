@@ -34,7 +34,7 @@ It = Im*3 + Ib + Id
 C = Idis/It = 3,815/0,665 = 5,736842105
 ```
 
-## Video Modelo 1
+## Video Modelo 2
 
 https://github.com/user-attachments/assets/8579e925-4092-4993-b2e3-47c2c2166304
 

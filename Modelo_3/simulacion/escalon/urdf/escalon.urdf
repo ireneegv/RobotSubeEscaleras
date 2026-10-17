@@ -1,0 +1,17 @@
+<robot name="escalon" version="1.0">
+  <link name="mi_diseño-escalon_link">
+    <collision name="mi_diseño-escalon_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <geometry>
+        <mesh filename="../meshes/stl/mi_diseño-escalon.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </collision>
+    <visual name="mi_diseño-escalon">
+      <material name="None"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <geometry>
+        <mesh filename="../meshes/stl/mi_diseño-escalon.stl" scale="0.00100 0.00100 0.00100"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

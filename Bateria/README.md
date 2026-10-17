@@ -320,18 +320,23 @@ A partir de los cálculos realizados, se propone evaluar una batería LiPo 2S de
 
 Las características consideradas son:
 
-| Parámetro | Valor |
-|---|---:|
-| Tecnología | LiPo |
-| Número de celdas | 2S |
-| Tensión nominal | 7,4 V |
-| Tensión máxima cargada | 8,4 V |
-| Capacidad nominal | 2000 mAh |
-| Tasa de descarga indicada | 20C |
-| Corriente máxima teórica | 40 A |
-| Corriente normal estimada del robot | 0,965 A |
-| Corriente máxima estimada del robot | 4,115 A |
-| Autonomía objetivo inicial | 30 minutos |
-| Masa inicial del robot | Aproximadamente 1 kg |
+| Parámetro | Batería inicial | Nueva batería |
+|---|---:|---:|
+| Tecnología | LiPo | LiPo |
+| Número de celdas | 2S | 2S |
+| Tensión nominal | 7,4 V | 7,4 V |
+| Tensión máxima cargada | 8,4 V | 8,4 V |
+| Capacidad nominal | 2000 mAh | 1500 mAh |
+| Tasa de descarga indicada | 20C | 25C |
+| Corriente máxima teórica | 40 A | 37,5 A |
+| Corriente normal estimada del robot | 0,965 A | 0,965 A |
+| Corriente máxima estimada del robot | 4,115 A | 4,115 A |
+| Autonomía objetivo inicial | 30 minutos | 30 minutos |
+| Autonomía teórica estimada | 124 minutos | 93 minutos |
+| Masa inicial del robot | Aproximadamente 1 kg | Aproximadamente 1 kg |
+| Peso de la batería | 110 g (aprox.) | 75 g (aprox) |
+| Dimensiones | Según modelo | 65 × 34 × 14 mm |
 
 Una posible batería es la [batería Dualsky LiPo 2S de 7,4 V y 2000 mAh](https://www.flashrc.com/es/baterias-del-receptor/22780-bateria-2s-7-4v-2000mah-lipo-20c-rx-toma-dualsky-xt60-6941047114593.html) ya que cumple con todas las especificaciones necesarias.
+
+La segunda columna corresponde a esta batería [Batería LiPo TERFPV 7.4V 2S 1500mAh](https://es.aliexpress.com/item/1005013087173451.html?src=google&src=google&albch=shopping&acnt=439-079-4345&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=es1005013087173451&ds_e_product_merchant_id=768446337&ds_e_product_country=ES&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=21116729971&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=21106574823&gclid=CjwKCAjwuczWBhA9EiwAYGgEoSPQ7IYbAdVRAv9Uoe6RVCk6ZZY3ja0-4MXH9LLl2mKp4Hx8iOP8rRoCRg8QAvD_BwE)

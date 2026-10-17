@@ -32,13 +32,10 @@ Cada pierna es una pieza articulada con una bisagra y el motor debe actuar direc
 | Par de arranque total | ≈ **1,7 N·m** (≈ 17 kg·cm) |
 | **Par objetivo con margen** | **2,5 - 3 N·m (25 - 30 kg·cm)** |
 
-Importante: hay que mirar el par **nominal o continuo**. El par de bloqueo (stall) que anuncian los catálogos solo se puede dar durante instantes sin calentar el motor.
-
-Un **muelle de torsión** en la bisagra que compense parte del peso puede reducir el par necesario casi a la mitad.
 
 ## 3. Servos pequeños (no giran de forma continua)
 
-Son muy ligeros, pero **no llegan al par necesario para las piernas** y no giran de forma continua, así que **no sirven para medir el avance del robot**. Solo valen para articulaciones ligeras.
+Son muy ligeros, pero no llegan al par necesario para las piernas y no giran de forma continua, así que no sirven para medir el avance del robot. Solo valen para articulaciones ligeras.
 
 | Característica | FEETECH FS0403-FB | FEETECH FS90-FB |
 |---|---:|---:|
@@ -84,11 +81,10 @@ Son muy ligeros, pero **no llegan al par necesario para las piernas** y no giran
 
 ## 6. ¿Cómo sabemos cuánto avanza el robot?
 
-No necesitamos conocer el ángulo del eje, solo **la distancia que ha recorrido el robot**. Para ello hay tres posibilidades:
+No necesitamos conocer el ángulo del eje, solo *a distancia que ha recorrido el robot. Para ello hay dos posibilidades:
 
-- Utilizar un **servo con encoder en modo rueda** (STS3215, STS3250, Dynamixel).
-- Utilizar un **motorreductor con encoder integrado** (N20, JGB37, Pololu 37D). El ESP32 cuenta los pulsos del encoder con interrupciones o con su contador de pulsos por hardware.
-- Añadir un **sensor externo** que mida el giro del eje, por ejemplo un encoder magnético **AS5600** (12 bits, I²C, 3,3 V, ≈ 2 - 4 €).
+- Utilizar un servo con encoder en modo rueda (STS3215, STS3250, Dynamixel).
+- Utilizar un motorreductor con encoder integrado (N20, JGB37, Pololu 37D). El ESP32 cuenta los pulsos del encoder con interrupciones o con su contador de pulsos por hardware.
 
 ### Con el FEETECH STS3215 en modo rueda
 
@@ -144,7 +140,7 @@ Aspectos prácticos con el ESP32:
 
 Los servos FEETECH FS0403-FB y FS90-FB son más pequeños y ligeros que los Parallax Feedback 360°, pero no tienen par suficiente para las piernas ni giran de forma continua, así que no permiten medir cuánto avanza el robot.
 
-Para **levantar las piernas** (≈ 1,7 N·m de arranque, objetivo 2,5 - 3 N·m) la opción recomendada es el **FEETECH STS3215 de 12 V**, con un muelle de torsión que reduzca la carga. Si el par continuo no basta, el siguiente escalón es el **STS3250**.
+Para levantar las piernas (≈ 1,7 N·m de arranque, objetivo 2,5 - 3 N·m) la opción recomendada es el **FEETECH STS3215 de 12 V**. Si el par continuo no basta, el siguiente escalón es el **STS3250**.
 
 Para **mover las ruedas y medir cuánto avanza el robot**, el STS3215 en modo rueda sirve: el ESP32 lee la posición del encoder, cuenta las vueltas y calcula la distancia. Si se prefiere algo más barato o ligero, se puede usar un motorreductor con encoder (N20 si es ligero, JGB37 o Pololu 37D si necesita más par).
 

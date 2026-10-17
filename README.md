@@ -23,8 +23,8 @@ En esta práctica hemos creado un robot que cumple con los siguientes requisitos
 | [Sensor ultrasónico HC-SR04](https://electronicaymas.com/movimiento/modulo-ultrasonido-para-arduino-700) | 1 | $I_d = 0{,}015\ \text{A}$ | - |
 | Batería LiPo 2S | 1 | - | - |
 
-> 🔋 **Batería:** el cálculo de la tensión, la capacidad y la tasa de descarga, junto con la selección final, está en la carpeta [`Bateria`](./Bateria/).
-> 
+**Batería:** el cálculo de la tensión, la capacidad y la tasa de descarga, junto con la selección final, está en la carpeta [`Bateria`](./Bateria/).
+
 Para elegir la batería hemos usado este cálculo para sacar la tasa de descarga, teniendo en cuenta los componentes que hemos nombrado anteriormente.
 
 ```

@@ -94,15 +94,15 @@ $$
 El incremento porcentual de masa será:
 
 $$
-\%\ \text{incremento} = \frac{m_{bateria}}{m_{robot}} \cdot 100
+\text{incremento} = \frac{m_{bateria}}{m_{robot}} \cdot 100
 $$
 
 $$
-\%\ \text{incremento} = \frac{110}{1000} \cdot 100
+\text{incremento} = \frac{110}{1000} \cdot 100
 $$
 
 $$
-\boxed{\%\ \text{incremento} = 11\%}
+\boxed{\text{incremento} = 11\ \text{por ciento}}
 $$
 
 Por tanto, la batería incrementaría aproximadamente un 11 % la masa inicial del robot.

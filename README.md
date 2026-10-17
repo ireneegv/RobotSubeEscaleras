@@ -42,7 +42,8 @@ corriente de dispositivo (Id) = 0,015 A
   https://us.ovonicshop.com/products/ovonic-3-7v-750mah-1s-30c-molex-plug-battery-for-micro-quad-4pcs?srsltid=AU7gw4V7Ob8AbrpEC3XxBIzCTO3BOCnLFI9VIx6F5DFA9s-3Zd4axzzW
 
   https://maxamps.com/collections/lipo-2000mah-packs?srsltid=AU7gw4UdZq0vDYEVtH78te5bcK8SUUs5vgwlONR2gmbEaIQ1pKBMiBVr
-  
+
+  https://www.flashrc.com/es/baterias-del-receptor/22780-bateria-2s-7-4v-2000mah-lipo-20c-rx-toma-dualsky-xt60-6941047114593.html?utm_source=chatgpt.com
 </a>
 
 Para elegir la batería hemos usado este cálculo para sacar la tasa de descarga, teniendo en cuenta los componentes que hemos nombrado anteriormente.

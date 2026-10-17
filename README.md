@@ -34,6 +34,25 @@ It = Im*3 + Ib + Id
 C = Idis/It = 3,815/0,665 = 5,736842105
 ```
 
+## PayLoad
+
+| Componente | Cantidad | Peso unitario estimado | Peso total |
+|---|---:|---:|---:|
+| Servo Parallax Feedback 360 | 3 | 32 g | 96 g |
+| ESP32 DevKit | 1 | 10 g | 10 g |
+| Sensor ultrasónico HC-SR04 | 1 | 8 g | 8 g |
+| Batería LiPo 2S, 2000 mAh | 1 | 110 g | 110 g |
+| **Total de componentes** | | | **224 g** |
+
+## Medidas
+
+| Componente | Cantidad | Dimensiones aproximadas |
+|---|---:|---|
+| Servo Parallax Feedback 360 | 3 | 40,7 × 19,8 × 38,8 mm |
+| ESP32 DevKit | 1 | 55 × 28 mm |
+| Sensor ultrasónico HC-SR04 | 1 | 45 × 20 × 15 mm |
+| Batería LiPo 2S, 2000 mAh | 1 | Consultar ficha técnica del fabricante |
+
 ## Video Modelo 2
 
 https://github.com/user-attachments/assets/8579e925-4092-4993-b2e3-47c2c2166304

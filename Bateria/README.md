@@ -334,4 +334,4 @@ Las características consideradas son:
 | Autonomía objetivo inicial | 30 minutos |
 | Masa inicial del robot | Aproximadamente 1 kg |
 
-Una posible referencia comercial es la [batería Dualsky LiPo 2S de 7,4 V y 2000 mAh](https://www.flashrc.com/es/baterias-del-receptor/22780-bateria-2s-7-4v-2000mah-lipo-20c-rx-toma-dualsky-xt60-6941047114593.html), cuya ficha comercial deberá revisarse para confirmar la tasa de descarga, el peso, las dimensiones y los conectores de la versión disponible.
+Una posible batería es la [batería Dualsky LiPo 2S de 7,4 V y 2000 mAh](https://www.flashrc.com/es/baterias-del-receptor/22780-bateria-2s-7-4v-2000mah-lipo-20c-rx-toma-dualsky-xt60-6941047114593.html) ya que cumple con todas las especificaciones necesarias.

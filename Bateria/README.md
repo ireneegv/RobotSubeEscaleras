@@ -20,28 +20,28 @@ Los valores de corriente se toman como datos de diseño iniciales y deberán con
 
 La corriente total del sistema se calcula sumando el consumo de todos los componentes:
 
-\[
-I_T=3I_m+I_b+I_d
-\]
+$$
+I_T = 3I_m + I_b + I_d
+$$
 
 Donde:
-- \(I_m\) es la corriente de funcionamiento de cada motor.
-- \(I_b\) es la corriente consumida por la placa de control.
-- \(I_d\) es la corriente consumida por los dispositivos auxiliares.
+- $I_m$ es la corriente de funcionamiento de cada motor.
+- $I_b$ es la corriente consumida por la placa de control.
+- $I_d$ es la corriente consumida por los dispositivos auxiliares.
 
 Sustituyendo los valores:
 
-\[
-I_T=3(0,15)+0,5+0,015
-\]
+$$
+I_T = 3(0{,}15) + 0{,}5 + 0{,}015
+$$
 
-\[
-I_T=0,45+0,5+0,015
-\]
+$$
+I_T = 0{,}45 + 0{,}5 + 0{,}015
+$$
 
-\[
-\boxed{I_T=0,965\ A}
-\]
+$$
+\boxed{I_T = 0{,}965\ \text{A}}
+$$
 
 Por tanto, el consumo nominal estimado del robot es de 0,965 A cuando los tres servos están funcionando simultáneamente.
 
@@ -51,25 +51,25 @@ Para dimensionar la batería también es necesario considerar los picos de corri
 
 La corriente máxima estimada se calcula mediante:
 
-\[
-I_{dis}=3I_a+I_b+I_d
-\]
+$$
+I_{dis} = 3I_a + I_b + I_d
+$$
 
-Donde \(I_a\) representa la corriente de arranque de cada servo.
+Donde $I_a$ representa la corriente de arranque de cada servo.
 
 Sustituyendo:
 
-\[
-I_{dis}=3(1,2)+0,5+0,015
-\]
+$$
+I_{dis} = 3(1{,}2) + 0{,}5 + 0{,}015
+$$
 
-\[
-I_{dis}=3,6+0,5+0,015
-\]
+$$
+I_{dis} = 3{,}6 + 0{,}5 + 0{,}015
+$$
 
-\[
-\boxed{I_{dis}=4,115\ A}
-\]
+$$
+\boxed{I_{dis} = 4{,}115\ \text{A}}
+$$
 
 Este resultado representa una estimación del consumo máximo instantáneo del sistema. La corriente real dependerá de la carga mecánica y de las condiciones de arranque de los servos.
 
@@ -79,31 +79,31 @@ El robot tiene una masa inicial aproximada de 1 kg. La incorporación de la bate
 
 Como ejemplo, si se selecciona una batería de 2000 mAh con una masa aproximada de 110 g, la masa total será:
 
-\[
-m_{total}=m_{robot}+m_{bateria}
-\]
+$$
+m_{total} = m_{robot} + m_{bateria}
+$$
 
-\[
-m_{total}=1000+110
-\]
+$$
+m_{total} = 1000 + 110
+$$
 
-\[
-\boxed{m_{total}=1110\ g=1,11\ kg}
-\]
+$$
+\boxed{m_{total} = 1110\ \text{g} = 1{,}11\ \text{kg}}
+$$
 
 El incremento porcentual de masa será:
 
-\[
-\%\ incremento=\frac{m_{bateria}}{m_{robot}}\cdot100
-\]
+$$
+\%\ \text{incremento} = \frac{m_{bateria}}{m_{robot}} \cdot 100
+$$
 
-\[
-\%\ incremento=\frac{110}{1000}\cdot100
-\]
+$$
+\%\ \text{incremento} = \frac{110}{1000} \cdot 100
+$$
 
-\[
-\boxed{\%\ incremento=11\%}
-\]
+$$
+\boxed{\%\ \text{incremento} = 11\%}
+$$
 
 Por tanto, la batería incrementaría aproximadamente un 11 % la masa inicial del robot.
 
@@ -117,40 +117,40 @@ Para realizar los cálculos se establece inicialmente una autonomía objetivo de
 
 La capacidad eléctrica necesaria se obtiene multiplicando la corriente consumida por el tiempo de funcionamiento:
 
-\[
-Q=I_T\cdot t
-\]
+$$
+Q = I_T \cdot t
+$$
 
 Donde:
-- \(Q\) es la capacidad necesaria, expresada en Ah.
-- \(I_T\) es la corriente total, expresada en A.
-- \(t\) es el tiempo de funcionamiento, expresado en horas.
+- $Q$ es la capacidad necesaria, expresada en Ah.
+- $I_T$ es la corriente total, expresada en A.
+- $t$ es el tiempo de funcionamiento, expresado en horas.
 
 Para una autonomía de 30 minutos:
 
-\[
-t=\frac{30}{60}=0,5\ h
-\]
+$$
+t = \frac{30}{60} = 0{,}5\ \text{h}
+$$
 
 Sustituyendo los valores:
 
-\[
-Q=0,965\cdot0,5
-\]
+$$
+Q = 0{,}965 \cdot 0{,}5
+$$
 
-\[
-\boxed{Q=0,4825\ Ah}
-\]
+$$
+\boxed{Q = 0{,}4825\ \text{Ah}}
+$$
 
 Expresando el resultado en miliamperios-hora:
 
-\[
-Q=0,4825\cdot1000
-\]
+$$
+Q = 0{,}4825 \cdot 1000
+$$
 
-\[
-\boxed{Q=482,5\ mAh}
-\]
+$$
+\boxed{Q = 482{,}5\ \text{mAh}}
+$$
 
 Por tanto, la capacidad teórica mínima para alcanzar 30 minutos de funcionamiento es de 482,5 mAh, suponiendo que el consumo se mantiene constante.
 
@@ -162,28 +162,28 @@ La tasa de descarga, expresada en C, relaciona la corriente suministrada por la 
 
 Se calcula mediante:
 
-\[
-C=\frac{I}{Q}
-\]
+$$
+C = \frac{I}{Q}
+$$
 
 Donde:
-- \(C\) es la tasa de descarga.
-- \(I\) es la corriente suministrada por la batería, en A.
-- \(Q\) es la capacidad nominal de la batería, en Ah.
+- $C$ es la tasa de descarga.
+- $I$ es la corriente suministrada por la batería, en A.
+- $Q$ es la capacidad nominal de la batería, en Ah.
 
 Si se utilizase una batería con la capacidad mínima teórica calculada:
 
-\[
-C_{necesaria}=\frac{I_{dis}}{Q}
-\]
+$$
+C_{necesaria} = \frac{I_{dis}}{Q}
+$$
 
-\[
-C_{necesaria}=\frac{4,115}{0,4825}
-\]
+$$
+C_{necesaria} = \frac{4{,}115}{0{,}4825}
+$$
 
-\[
-\boxed{C_{necesaria}\approx8,53C}
-\]
+$$
+\boxed{C_{necesaria} \approx 8{,}53\,C}
+$$
 
 Por tanto, una batería de 482,5 mAh necesitaría admitir una tasa de descarga de al menos 8,53C para suministrar la corriente máxima estimada.
 
@@ -193,47 +193,47 @@ Como opción preliminar se considera una batería LiPo de 7,4 V, 2000 mAh y una 
 
 Su capacidad expresada en amperios-hora es:
 
-\[
-Q=\frac{2000}{1000}=2\ Ah
-\]
+$$
+Q = \frac{2000}{1000} = 2\ \text{Ah}
+$$
 
 La corriente máxima teórica de descarga se calcula mediante:
 
-\[
-I_{max}=C\cdot Q
-\]
+$$
+I_{max} = C \cdot Q
+$$
 
 Sustituyendo:
 
-\[
-I_{max}=20\cdot2
-\]
+$$
+I_{max} = 20 \cdot 2
+$$
 
-\[
-\boxed{I_{max}=40\ A}
-\]
+$$
+\boxed{I_{max} = 40\ \text{A}}
+$$
 
 Para comprobar que cumple los requisitos eléctricos, se compara esta corriente con el consumo máximo estimado del robot:
 
-\[
-40\ A>4,115\ A
-\]
+$$
+40\ \text{A} > 4{,}115\ \text{A}
+$$
 
 Por tanto, la batería cumple teóricamente el requisito de corriente de descarga.
 
 La tasa de descarga mínima necesaria para esta batería sería:
 
-\[
-C_{necesaria}=\frac{I_{dis}}{Q}
-\]
+$$
+C_{necesaria} = \frac{I_{dis}}{Q}
+$$
 
-\[
-C_{necesaria}=\frac{4,115}{2}
-\]
+$$
+C_{necesaria} = \frac{4{,}115}{2}
+$$
 
-\[
-\boxed{C_{necesaria}\approx2,06C}
-\]
+$$
+\boxed{C_{necesaria} \approx 2{,}06\,C}
+$$
 
 Dado que la batería seleccionada tiene una tasa de descarga nominal de 20C, dispone de un margen considerable respecto a la corriente máxima estimada.
 
@@ -243,29 +243,29 @@ La corriente máxima indicada por la tasa C es un valor teórico que debe contra
 
 La autonomía teórica de una batería puede calcularse dividiendo su capacidad entre la corriente consumida:
 
-\[
-t=\frac{Q}{I_T}
-\]
+$$
+t = \frac{Q}{I_T}
+$$
 
 Para una batería de 2000 mAh:
 
-\[
-t=\frac{2}{0,965}
-\]
+$$
+t = \frac{2}{0{,}965}
+$$
 
-\[
-\boxed{t\approx2,07\ h}
-\]
+$$
+\boxed{t \approx 2{,}07\ \text{h}}
+$$
 
 Convirtiendo el resultado a minutos:
 
-\[
-t=2,07\cdot60
-\]
+$$
+t = 2{,}07 \cdot 60
+$$
 
-\[
-\boxed{t\approx124\ minutos}
-\]
+$$
+\boxed{t \approx 124\ \text{minutos}}
+$$
 
 Este resultado es una estimación ideal. No constituye una autonomía garantizada, ya que el cálculo debe considerar las distintas tensiones de alimentación, las pérdidas de conversión, la carga mecánica y la variación del consumo durante el funcionamiento.
 
@@ -335,7 +335,3 @@ Las características consideradas son:
 | Masa inicial del robot | Aproximadamente 1 kg |
 
 Una posible referencia comercial es la [batería Dualsky LiPo 2S de 7,4 V y 2000 mAh](https://www.flashrc.com/es/baterias-del-receptor/22780-bateria-2s-7-4v-2000mah-lipo-20c-rx-toma-dualsky-xt60-6941047114593.html), cuya ficha comercial deberá revisarse para confirmar la tasa de descarga, el peso, las dimensiones y los conectores de la versión disponible.
-
-La elección definitiva dependerá de comprobar la compatibilidad de la batería con el circuito de alimentación, el espacio disponible, la masa final del robot y las condiciones reales de funcionamiento.
-
-En conclusión, una batería LiPo 2S de 2000 mAh y 20C constituye una opción preliminar que satisface los requisitos eléctricos estimados. Antes de cerrar el diseño, será necesario validar el consumo real de los motores bajo carga y verificar la autonomía mediante pruebas experimentales.

@@ -213,6 +213,8 @@ $$
 \boxed{I_{max} = 40\ \text{A}}
 $$
 
+Son valores teóricos: en la práctica, la duración será menor por las pérdidas, las condiciones de funcionamiento y la capacidad realmente aprovechable.
+
 Para comprobar que cumple los requisitos eléctricos, se compara esta corriente con el consumo máximo estimado del robot:
 
 $$

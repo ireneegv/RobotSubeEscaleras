@@ -1,5 +1,5 @@
 ----
-# RobotSubeEscaleras
+# RobotSubeEscaleras - Modelo 2
 ----
 En esta práctica hemos creado un robot que cumple con los siguientes requisitos:
 - Esquiva obstáculos

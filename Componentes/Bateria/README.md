@@ -337,7 +337,7 @@ Las características consideradas son:
 | Autonomía teórica estimada | 124 minutos | 93 minutos |
 | Masa inicial del robot | Aproximadamente 1 kg | Aproximadamente 1 kg |
 | Peso de la batería | 110 g (aprox.) | 75 g (aprox) |
-| Dimensiones | Según modelo | 65 × 34 × 14 mm |
+| Dimensiones | 68 x 43 x 18 | 70 × 34 × 14 mm |
 
 Una posible batería es la [batería Dualsky LiPo 2S de 7,4 V y 2000 mAh](https://www.flashrc.com/es/baterias-del-receptor/22780-bateria-2s-7-4v-2000mah-lipo-20c-rx-toma-dualsky-xt60-6941047114593.html) ya que cumple con todas las especificaciones necesarias.
 

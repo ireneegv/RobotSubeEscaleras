@@ -25,3 +25,8 @@ Estructuras de PLA (0.25 x 0.02 x 0.03) - 65 g por brazo
 4. Peso de la carcasa de PLA rellena (0.1 X 0.15 X 0.01) - 180 g
 
 Peso total aprox: 262
+
+# MODELO SIMPLE:
+
+[print.pdf](https://github.com/user-attachments/files/33626220/print.pdf)
+

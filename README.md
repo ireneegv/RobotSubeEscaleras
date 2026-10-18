@@ -30,3 +30,12 @@ El proyecto abarca el proceso completo de desarrollo, desde la planificación y 
 El diseño deberá respetar las restricciones establecidas en el enunciado, incluyendo las dimensiones máximas, la alimentación mediante baterías recargables, la fabricación propia de la estructura y la disponibilidad de una interfaz básica para iniciar y detener el funcionamiento.
 
 El robot deberá demostrar su capacidad para aproximarse a la escalera evitando obstáculos y subir al menos un peldaño dentro de los límites de tiempo establecidos en el enunciado.
+
+## Enfoque inicial y simulación
+
+Durante las primeras fases del proyecto, el equipo encontró dificultades para alcanzar un acuerdo sobre el modelo mecánico que se iba a desarrollar. Para poder comparar las distintas alternativas y valorar cuál resultaba más viable de fabricar, se decidió adelantar parte del trabajo de simulación antes de completar todas las fases del diseño.
+
+Por este motivo, en una entrega temprana puede aparecer contenido relacionado con la simulación junto con el diseño todavía en desarrollo. Esta decisión responde a la necesidad de evaluar la viabilidad de las distintas propuestas y utilizar los resultados obtenidos como apoyo para seleccionar el modelo que se desarrollará finalmente.
+
+La simulación permitirá estudiar el comportamiento de los mecanismos y detectar posibles problemas antes de pasar a la fabricación del prototipo.
+

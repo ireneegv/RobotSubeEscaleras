@@ -1,6 +1,13 @@
 # Robot Sube Escaleras
+## Equipo
 
-Proyecto de **Mecatrónica** del Grado en Ingeniería de Robótica Software de la Universidad Rey Juan Carlos (URJC).
+Integrantes del proyecto:
+
+- **Participante 1:** Yassir El Kasmi
+- **Participante 2:** Mateo Ferreira
+- **Participante 3:** Irene Garrido
+
+**Portavoz del equipo:** Martin Antonio Novo
 
 ## Descripción del proyecto
 
@@ -23,24 +30,3 @@ El proyecto abarca el proceso completo de desarrollo, desde la planificación y 
 El diseño deberá respetar las restricciones establecidas en el enunciado, incluyendo las dimensiones máximas, la alimentación mediante baterías recargables, la fabricación propia de la estructura y la disponibilidad de una interfaz básica para iniciar y detener el funcionamiento.
 
 El robot deberá demostrar su capacidad para aproximarse a la escalera evitando obstáculos y subir al menos un peldaño dentro de los límites de tiempo establecidos en el enunciado.
-
-## Equipo
-
-Integrantes del proyecto:
-
-- **Participante 1:** [Yassir El Kasmi]
-- **Participante 2:** [Mateo Ferreira]
-- **Participante 3:** [Irene Garrido]
-
-**Portavoz del equipo:** [Martin Antonio Novo]
-
-
-## Estado del proyecto
-
-Actualmente, el repositorio servirá como espacio de organización y documentación del desarrollo. A medida que avance el proyecto, se incorporarán los diseños, el código, la documentación técnica y los resultados de las pruebas.
-
----
-
-**Asignatura:** Mecatrónica  
-**Titulación:** Grado en Ingeniería de Robótica Software  
-**Universidad:** Universidad Rey Juan Carlos (URJC)

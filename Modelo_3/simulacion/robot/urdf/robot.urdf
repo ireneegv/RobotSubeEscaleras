@@ -34,12 +34,10 @@
     <child link="mi_diseño-motor_soporte_i_link"/>
     <axis xyz="0.00000 0.00000 1.00000"/>
   </joint>
-  <joint name="mi_diseño-Soporte_link_joint" type="continuous">
-    <limit effort="0.00000" velocity="0.00000"/>
+  <joint name="mi_diseño-Soporte_link_joint" type="fixed">
     <origin rpy="1.57080 0.00000 0.00000" xyz="-0.00121 0.00425 -0.07000"/>
     <parent link="mi_diseño-motor_soporte_i_link"/>
     <child link="mi_diseño-Soporte_link"/>
-    <axis xyz="0.00000 0.00000 1.00000"/>
   </joint>
   <link name="mi_diseño-cuerpo001_link">
     <collision name="mi_diseño-cuerpo001_collision">
@@ -49,9 +47,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00129" ixy="-0.00001" ixz="-0.00003" iyy="0.00084" iyz="-0.00000" izz="0.00187"/>
+      <inertia ixx="0.00092" ixy="-0.00000" ixz="-0.00002" iyy="0.00060" iyz="-0.00000" izz="0.00133"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
-      <mass value="0.70000"/>
+      <mass value="0.50000"/>
     </inertial>
     <visual name="mi_diseño-cuerpo001">
       <material name="None"/>
@@ -69,9 +67,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00009" ixy="-0.00000" ixz="-0.00000" iyy="0.00009" iyz="0.00000" izz="0.00012"/>
+      <inertia ixx="0.00008" ixy="-0.00000" ixz="-0.00000" iyy="0.00008" iyz="0.00000" izz="0.00010"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
-      <mass value="0.15000"/>
+      <mass value="0.13000"/>
     </inertial>
     <visual name="mi_diseño-base_giratoria">
       <material name="None"/>
@@ -89,9 +87,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00001" ixy="0.00000" ixz="-0.00000" iyy="0.00061" iyz="-0.00000" izz="0.00062"/>
+      <inertia ixx="0.00001" ixy="0.00000" ixz="-0.00000" iyy="0.00040" iyz="-0.00000" izz="0.00040"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.11459 0.00007 -0.01468"/>
-      <mass value="0.10000"/>
+      <mass value="0.06500"/>
     </inertial>
     <visual name="mi_diseño-pata_d">
       <material name="None"/>
@@ -109,9 +107,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00001" ixy="-0.00000" ixz="0.00000" iyy="0.00001" iyz="0.00000" izz="0.00001"/>
-      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
-      <mass value="0.10000"/>
+      <inertia ixx="0.00000" ixy="0.00000" ixz="0.00000" iyy="0.00000" iyz="0.00000" izz="0.00000"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <mass value="0.03200"/>
     </inertial>
     <visual name="mi_diseño-motor_soporte_d">
       <material name="None"/>
@@ -129,9 +127,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00001" ixy="-0.00000" ixz="0.00000" iyy="0.00061" iyz="-0.00000" izz="0.00062"/>
+      <inertia ixx="0.00001" ixy="-0.00000" ixz="0.00000" iyy="0.00040" iyz="-0.00000" izz="0.00040"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.11459 0.00000 0.01987"/>
-      <mass value="0.10000"/>
+      <mass value="0.06500"/>
     </inertial>
     <visual name="mi_diseño-pata_i">
       <material name="None"/>
@@ -149,9 +147,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00001" ixy="-0.00000" ixz="0.00000" iyy="0.00001" iyz="0.00000" izz="0.00001"/>
-      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
-      <mass value="0.10000"/>
+      <inertia ixx="0.00000" ixy="0.00000" ixz="0.00000" iyy="0.00000" iyz="0.00000" izz="0.00000"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <mass value="0.03200"/>
     </inertial>
     <visual name="mi_diseño-motor_soporte_i">
       <material name="None"/>
@@ -169,9 +167,9 @@
       </geometry>
     </collision>
     <inertial>
-      <inertia ixx="0.00016" ixy="-0.00000" ixz="-0.00000" iyy="0.00006" iyz="0.00000" izz="0.00020"/>
+      <inertia ixx="0.00033" ixy="-0.00000" ixz="-0.00000" iyy="0.00012" iyz="0.00000" izz="0.00040"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
-      <mass value="0.10000"/>
+      <mass value="0.20000"/>
     </inertial>
     <visual name="mi_diseño-Soporte">
       <material name="None"/>

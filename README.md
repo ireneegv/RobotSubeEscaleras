@@ -7,7 +7,7 @@ Integrantes del proyecto:
 - **Participante 2:** Mateo Ferreira
 - **Participante 3:** Irene Garrido
 
-**Portavoz del equipo:** Martin Antonio Novo
+**Pringao del equipo:** Martin Antonio Novo
 
 ## Descripción del proyecto
 

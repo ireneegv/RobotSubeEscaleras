@@ -3,9 +3,9 @@
 
 Integrantes del proyecto:
 
-- **Participante 1:** Yassir El Kasmi
-- **Participante 2:** Mateo Ferreira
-- **Participante 3:** Irene Garrido
+- **Paleto 1:** Yassir El Kasmi
+- **Paleto 2:** Mateo Ferreira
+- **Paleto 3:** Irene Garrido
 
 **Pringao del equipo:** Martin Antonio Novo
 

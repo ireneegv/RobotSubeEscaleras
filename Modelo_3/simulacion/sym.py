@@ -47,14 +47,24 @@ for j in range(numJoints):
 giro1 = p.addUserDebugParameter("mover_base", MIN_LINK1, MAX_LINK1, INIT_LINK1)
 giro3 = p.addUserDebugParameter("girar_base", MIN_LINK3, MAX_LINK3, INIT_LINK3)
 
-p.changeDynamics(robot, 5, lateralFriction=LATERAL_FRICTION_)
-p.changeDynamics(robot,  5, spinningFriction=SPINNING_FRICTION_)
-p.changeDynamics(robot, 5, rollingFriction=ROLLING_FRICTION_)
+for link in range(p.getNumJoints(robot) + 1):
+    p.changeDynamics(
+        robot,
+        link,
+        lateralFriction=LATERAL_FRICTION_,
+        spinningFriction=SPINNING_FRICTION_,
+        rollingFriction=ROLLING_FRICTION_
+    )
 
-
-p.changeDynamics(robot, 0, lateralFriction=LATERAL_FRICTION_)
-p.changeDynamics(robot,  0, spinningFriction=SPINNING_FRICTION_)
-p.changeDynamics(robot, 0, rollingFriction=ROLLING_FRICTION_)
+# Rozamiento de los escalones
+for escalon in [escalon1, escalon2, escalon3]:
+    p.changeDynamics(
+        escalon,
+        -1,
+        lateralFriction=LATERAL_FRICTION_,
+        spinningFriction=SPINNING_FRICTION_,
+        rollingFriction=ROLLING_FRICTION_
+    )
 
 
 

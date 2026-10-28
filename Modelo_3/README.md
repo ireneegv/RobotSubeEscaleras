@@ -30,3 +30,9 @@ Peso total aprox: 262
 
 [print.pdf](https://github.com/user-attachments/files/33626220/print.pdf)
 
+
+Las dimensiones de nuestro servo son: 
+Largo X: 50.33518028259277 mm
+Ancho Y: 32.98400115966797 mm
+Alto Z: 38.58259963989258 mm
+

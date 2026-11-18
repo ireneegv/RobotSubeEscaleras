@@ -68,7 +68,7 @@ C = Idis/It = 3,815/0,665 = 5,736842105
 | ESP32 DevKit | 1 | 55 × 28 mm |
 | Sensor ultrasónico HC-SR04 | 1 | 45 × 20 × 15 mm |
 | Batería LiPo 2S, 2000 mAh | 1 | Consultar ficha técnica del fabricante |
-| Estructuras de PLA (65 g) | 2 | (0.25 x 0.02 x 0.03) |
+| brazos PLA (65 g) | 2 | (0.25 x 0.02 x 0.03) |
 
 # VIDEO SIMULACIÓN: 
 https://github.com/user-attachments/assets/e7b172c3-d4eb-400a-bb99-c79db4da110a

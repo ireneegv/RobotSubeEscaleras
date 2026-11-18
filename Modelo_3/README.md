@@ -1,6 +1,17 @@
-# VIDEO SIMULACIÓN: 
+----
+# RobotSubeEscaleras - Modelo 3
+----
+En esta práctica hemos creado un robot que cumple con los siguientes requisitos:
+- Esquiva obstáculos
+- Es capaz de subir 1 peldaño
+- Dimensiones: 25x25x25
+- Inicio de movimiento mediante una interfaz inalámbrica
 
-https://github.com/user-attachments/assets/e7b172c3-d4eb-400a-bb99-c79db4da110a
+
+----
+### Diseño del robot:
+
+<img width="4967" height="3509" alt="print-2_page-0001" src="https://github.com/user-attachments/assets/8529d561-820d-4efb-9626-bb7f93b2dfaf" />
 
 # PESOS APROXIMADOS: 
 
@@ -28,7 +39,6 @@ Peso total aprox: 262
 
 # MODELO SIMPLE:
 
-[print.pdf](https://github.com/user-attachments/files/33626220/print.pdf)
 
 
 Las dimensiones de nuestro servo son: 
@@ -36,3 +46,6 @@ Largo X: 50.33518028259277 mm
 Ancho Y: 32.98400115966797 mm
 Alto Z: 38.58259963989258 mm
 
+
+# VIDEO SIMULACIÓN: 
+https://github.com/user-attachments/assets/e7b172c3-d4eb-400a-bb99-c79db4da110a
